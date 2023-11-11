@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const AvaliacaoSchema = new mongoose.Schema({
     livro: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Livro' // Referência ao modelo Livro
+        ref: 'Livro'
     },
     nota: {
         type: Number,
